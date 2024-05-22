@@ -1,0 +1,20 @@
+{
+  "name": "کارخانه رنگ بیان",
+  "short_name": "رنگ بیان",
+  "description": "رنگ بیان تولید کننده انواع رنگ و پوشش های رنگی",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9f9f9",
+  "theme_color": "#00f0ff",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "./assets/icons/svg/bayan-logo-small.svg",
+      "sizes": "25x10",
+      "type": "image/svg"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

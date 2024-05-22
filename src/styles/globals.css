@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root Style Variables */
+:root {
+  --primary: #00f0ff;
+  --primary-opacity-50: #00f0ff80;
+  --smooth-white: #f9f9f9;
+  --smooth-black: #111111;
+  --light-box-shadow: #0000000d;
+}
+
+/* Scrollbar */
+html,
+body {
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scroll-padding-top: 12.5vh;
+}
+@media (min-width: 768px) {
+  html,
+  body {
+    scroll-padding-top: 17.5vh;
+  }
+}
+
+/* Text Selection */
+::selection {
+  color: var(--primary);
+  background-color: transparent;
+}
+
+/* Backgrounds */
+.glass-box {
+  @apply glass-box-shadow rounded-3xl bg-white/50 backdrop-blur-md;
+}
+.cyan-gradient-background {
+  @apply bg-gradient-to-l from-teal-300 via-primary to-blue-500;
+}
+.mobile-menu-container {
+  @apply bg-gradient-to-b from-primary to-transparent backdrop-blur-[1px];
+}
+
+/* Shadows */
+.glass-box-shadow {
+  box-shadow: 0 10px 25px var(--light-box-shadow);
+}
+.cyan-box-shadow {
+  box-shadow: 0 10px 15px -5px var(--primary-opacity-50);
+}
+.cyan-text-shadow {
+  text-shadow:
+    0 0 25px var(--primary),
+    0 0 50px var(--primary),
+    0 0 75px var(--primary),
+    0 0 100px var(--primary),
+    0 0 125px var(--primary),
+    0 0 150px var(--primary);
+}
+.referral-text-shadow {
+  text-shadow:
+    0 0 5px var(--primary),
+    0 0 10px white,
+    0 0 15px var(--primary),
+    0 0 205px white;
+}
+.cyan-gradient-text {
+  @apply cyan-gradient-background bg-clip-text text-transparent;
+}
+
+/* Links */
+.link-hover-active {
+  @apply transition-transform hover:scale-105 active:scale-95;
+}
