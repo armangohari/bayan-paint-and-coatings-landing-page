@@ -18,6 +18,7 @@ export default function Navbar() {
             src={bayanLogoSmallIcon}
             alt="رنگ بیان"
             className="h-7 w-7 md:scale-125"
+            unoptimized
           />
         </div>
 
