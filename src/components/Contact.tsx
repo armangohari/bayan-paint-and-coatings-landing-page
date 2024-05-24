@@ -13,7 +13,7 @@ const contactData = [
       "کرج، ماهدشت، خیابان سرداران، شهرک صنعتی خوارزمی، خیابان دهم جنوبی، پلاک ۴۷ و ۴۹",
     linkIcon: locationIcon,
     linkTitle: "مشاهده در گوگل مپ",
-    linkUrl: "", // TODO: add link
+    linkUrl: "https://maps.app.goo.gl/ukzGWgqgLAWVGB5D6",
   },
   {
     label: "تلفن دفتر",
