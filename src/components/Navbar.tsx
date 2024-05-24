@@ -18,6 +18,7 @@ export default function Navbar() {
             src={bayanLogoSmallIcon}
             alt="رنگ بیان"
             className="h-7 w-7 md:scale-125"
+            unoptimized
           />
         </div>
 
@@ -30,6 +31,7 @@ export default function Navbar() {
                   src={newspaperIcon}
                   alt="خصوصیات ما"
                   className="h-7 w-7"
+                  unoptimized
                 />
                 <span>خصوصیات ما</span>
               </a>
@@ -40,6 +42,7 @@ export default function Navbar() {
                   src={shoppingCartIcon}
                   alt="محصولات ما"
                   className="h-7 w-7"
+                  unoptimized
                 />
                 <span>محصولات ما</span>
               </a>
@@ -50,6 +53,7 @@ export default function Navbar() {
                   src={questionMarkIcon}
                   alt="درباره ما"
                   className="h-7 w-7"
+                  unoptimized
                 />
                 <span>درباره ما</span>
               </a>
