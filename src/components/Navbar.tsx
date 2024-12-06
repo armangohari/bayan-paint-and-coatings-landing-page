@@ -65,7 +65,7 @@ export default function Navbar() {
         <div className="link-hover-active max-md:hidden">
           <a
             href="#contact"
-            className="cyan-box-shadow flex items-center gap-2 rounded-2xl bg-primary px-3 py-2.5 text-smooth-white"
+            className="cyan-box-shadow flex items-center gap-2 rounded-2xl bg-primary px-3 py-2.5 font-bold text-smooth-white"
           >
             <span>تماس با ما</span>
             <Image src={phoneCallIcon} alt="تماس با ما" className="h-7 w-7" />

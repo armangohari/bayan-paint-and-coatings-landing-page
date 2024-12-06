@@ -19,9 +19,9 @@ export default function ProductCard({ image, title, desc }: ProductCardProps) {
 
       <div className="flex flex-col items-center justify-center gap-8 md:items-start">
         {/* Title */}
-        <h3 className="text-2xl font-bold">{title}</h3>
+        <h3 className="text-xl font-bold md:text-3xl">{title}</h3>
         {/* Description */}
-        <p className="px-8 text-justify font-medium leading-loose md:px-0">
+        <p className="px-5 text-justify text-sm font-medium leading-loose md:px-0 md:text-lg">
           {desc}
         </p>
       </div>

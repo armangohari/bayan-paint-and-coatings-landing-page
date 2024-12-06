@@ -1,6 +1,6 @@
+import { fogColorImage } from "@/lib/images";
 import Image from "next/image";
 import AboutCard from "./AboutCard";
-import { fogColorImage } from "@/lib/images";
 
 const aboutCardsData = [
   {

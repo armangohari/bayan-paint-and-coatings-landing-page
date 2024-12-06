@@ -19,9 +19,11 @@ export default function ContactCard({
   return (
     <div className="glass-box flex w-80 flex-col items-center justify-center gap-8 bg-white p-8 font-bold md:min-h-72 md:justify-between">
       {/* Label */}
-      <span className="rounded-xl bg-white/20 px-3.5 py-1.5">{label}</span>
+      <span className="rounded-xl bg-white/20 px-3.5 py-1.5 text-lg">
+        {label}
+      </span>
       {/* Content (single string or new-line separated strings) */}
-      <span dir="ltr" className="text-center">
+      <span dir="ltr" className="text-center text-lg">
         {Array.isArray(content)
           ? content.flatMap((item, idx) => [
               item,

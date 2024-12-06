@@ -12,12 +12,15 @@ export default function Hero() {
         priority
       />
       {/* Hero Title */}
-      <div className="cyan-text-shadow z-10 flex h-screen flex-col items-center justify-center gap-8 font-black text-white md:gap-20">
+      <div className="z-10 flex h-screen flex-col items-center justify-center gap-8 font-black text-white md:gap-20">
         {/* Company Name */}
-        <h1 className="text-5xl md:text-9xl">رنــگ بــیــان</h1>
+        <h1 className="cyan-text-shadow text-6xl md:text-9xl">
+          رنـــگ بــیـــان
+        </h1>
         {/* Company Line of Work */}
-        <h2 className="text-center text-lg tracking-wide md:text-4xl">
-          تولـیـد کـنـنـده انـواع <br /> رنـگ و پـوشـش هـای رنـگـی
+        <h2 className="cyan-text-shadow flex flex-col gap-2 text-center text-2xl tracking-wide md:text-5xl">
+          <span>تولـیـد کـنـنـده انـواع</span>
+          <span>رنـگ و پـوشـش هـای رنـگـی</span>
         </h2>
       </div>
     </section>

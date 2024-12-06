@@ -8,7 +8,7 @@
   --primary-opacity-50: #00f0ff80;
   --smooth-white: #f9f9f9;
   --smooth-black: #111111;
-  --light-box-shadow: #0000000d;
+  --light-box-shadow: #cccccc33;
 }
 
 /* Scrollbar */
@@ -33,7 +33,7 @@ body {
 
 /* Backgrounds */
 .glass-box {
-  @apply glass-box-shadow rounded-3xl bg-white/50 backdrop-blur-md;
+  @apply glass-box-shadow rounded-[72px] bg-white/50 backdrop-blur-md;
 }
 .cyan-gradient-background {
   @apply bg-gradient-to-l from-teal-300 via-primary to-blue-500;
@@ -55,7 +55,6 @@ body {
     0 0 50px var(--primary),
     0 0 75px var(--primary),
     0 0 100px var(--primary),
-    0 0 125px var(--primary),
     0 0 150px var(--primary);
 }
 .referral-text-shadow {

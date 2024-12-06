@@ -1,9 +1,9 @@
-import { iranSansFont } from "@/lib/fonts";
+import { yekanBakhFont } from "@/lib/fonts";
 import "@/styles/globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "کارخانه رنگ بیان",
+  title: "شرکت رنگ بیان",
   description: "رنگ بیان تولید کننده انواع رنگ و پوشش های رنگی",
   keywords: [
     "رنگ بیان",
@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     "رنگ",
     "تولید کننده رنگ",
     "رنگ مصطفی",
+    "شرکت رنگ بیان",
     "تولید کننده رنگ و پوشش های رنگی",
     "تولید کننده پوشش های رنگی",
     "تولید کننده رنگ ضد زنگ",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     url: "https://bayanpaint.com",
     title: "رنگ بیان",
     description: "رنگ بیان تولید کننده انواع رنگ و پوشش های رنگی",
-    siteName: "کارخانه رنگ بیان",
+    siteName: "شرکت رنگ بیان",
   },
 };
 
@@ -35,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="fa" dir="rtl">
       <body
-        className={`${iranSansFont.className} bg-smooth-white text-smooth-black`}
+        className={`${yekanBakhFont.className} bg-smooth-white text-smooth-black`}
       >
         {children}
       </body>
